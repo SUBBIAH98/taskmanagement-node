@@ -29,7 +29,7 @@ app.get('/health', (req, res) => res.json({ ok: true }));
 app.use(errorHandler);
 
 // Server + DB Boot
-const port = process.env.PORT || 4007;
+const port = process.env.PORT;
 
 async function start() {
     try {
