@@ -101,19 +101,13 @@ DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 
-4️⃣ Import Database Schema
-
-If using Railway or local MySQL:
-
-mysql -h <HOST> -P <PORT> -u <USER> -p <DB_NAME> < schema.sql
-
 5️⃣ Run the Server
 npm start
 
 
 Your server runs at:
 
-👉 http://localhost:4007
+👉 http://localhost:given_port
 
 🔐 Authentication Endpoints
 Register User
@@ -192,42 +186,6 @@ Task_Management_BackEnd.postman_collection.json
 
 
 You can import it directly in Postman.
-
-☁️ Deployment
-
-You can deploy this project on:
-
-Railway (Recommended for MySQL)
-
-Render
-
-Vercel + External MySQL
-
-AWS / GCP / Azure
-
-Required Environment Variables on Cloud
-JWT_SECRET=
-JWT_EXPIRES_IN=
-DB_HOST=
-DB_PORT=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-
-
-After deployment, your live API URL will look like:
-
-https://your-domain.com/api
-
-🧪 Bonus (Optional Enhancements)
-
-You may extend the project with:
-
-Unit Tests (Jest + Supertest)
-
-Docker Containerization
-
-GitHub Actions CI/CD
 
 📘 Conclusion
 
